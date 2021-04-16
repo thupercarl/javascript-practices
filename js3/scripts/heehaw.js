@@ -4,7 +4,8 @@
     File  : heehaw.js
  */
 
-    function heehaw() {
+    let btn = document.getElementById("submitbutton");
+    btn.onclick = function() {
     let limit = document.getElementById("inputnumber").value;
     let printIt = document.getElementsByTagName("P")[0];
     let printOut = "";
